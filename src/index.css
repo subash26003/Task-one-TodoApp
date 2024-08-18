@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --background : rgba(0, 0, 0);
+    --white : #ffffff;
+    --gray : rgba(71, 139, 164, 0.829);
+}
+body{
+    scroll-behavior: smooth;
+}
+.button-element{
+    padding: 7px 21px 7px 21px ;
+    border-radius: 10px;
+    color: var(--white);
+    font-weight: bold;
+
+}
+.button-element:hover {
+    box-shadow:0 0 5px 5px rgba(0, 0, 0, 0.543);
+    transform: scale(0.90);
+}
+
+
+
+
+.dark-mode{
+    background-color: var(--background);
+   
+}
+.light-mode{
+    background-color:var(--white);
+    
+}
+
+
+
+.light-button{
+    background-color: hsla(239, 69%, 37%, 0.817);
+}
+.dark-button{
+    background-color:var(--white);
+    color:var(--background)
+
+}
+
+.dark-card{
+    background-color:var(--white);
+    color: var(--background);
+}
+.light-card{
+    background-color: var(--background);
+    color:var(--white)
+}
+
+.dark-card-button{
+    background-color: var(--background);
+    color:var(--white);
+}
+
+.light-card-button{
+    background-color: var(--white);
+    color:var(--background);
+}
+
+.light-card-button:hover{
+    box-shadow: 0 0 10px 1px var(--white);
+}
+
+.light-footer{
+    background-color: var(--gray);
+    color:black
+}
+
+.dark-footer{
+    background-color: var(--background);
+    color:var(--white)
+}
+
+.dark-content{
+    color:var(--white)
+}
+.light-content{
+    color:var(--background)
+}

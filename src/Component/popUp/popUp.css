@@ -1,0 +1,27 @@
+.pop-up-top-card{
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.pop-inner-card{
+    box-shadow: 0 0 20px 1px white;
+}
+
+.dark-popup{
+    background-color: rgb(10, 10, 10);
+    color: var(--white);
+
+}
+.light-popup{
+    background-color: var(--white);
+    color: var(--background);
+}
+
+.dark-popup-button{
+    background-color: var(--white);
+    color:var(--background);
+
+}
+.light-popup-button{
+    background-color: var(--background);
+    color:var(--white);
+}

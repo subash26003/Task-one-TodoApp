@@ -1,0 +1,22 @@
+
+.header-card {
+    width: 100vw;
+    z-index: 1000;
+    box-shadow: 0 .25px 10px .25px white;
+    overflow: hidden;
+}
+.header-card h1{
+    font-weight: bolder;
+    letter-spacing: 4px;
+    
+}
+.dark-header{
+    background-color: var(--background);
+    color:var(--background);
+    text-shadow: 0 0 15px white;
+}
+.light-header{
+    background-color: var(--gray);
+    color:var(--black);
+    text-shadow: 0 0 15px black;
+}

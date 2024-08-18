@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": "5",
+      "title": "heloo",
+      "description": "CAN BE USED IN BOTH BACKEND AND FRONTEND"
+    }
+  ],
+  "login": [
+    {
+      "user": "user1",
+      "pass": "123",
+      "access": "user",
+      "id": "a865"
+    },
+    {
+      "user": "arun",
+      "pass": "1232",
+      "access": "adnin",
+      "id": "6031"
+    }
+  ]
+}
